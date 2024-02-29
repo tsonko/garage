@@ -22,7 +22,7 @@ def home(request):
     return HttpResponse("Home page!")
 
 def room(request):
-    return HttpResponse("Room New!")
+    return HttpResponse("The new room is here!")
 
 urlpatterns = [
     path('admin/', admin.site.urls), 
